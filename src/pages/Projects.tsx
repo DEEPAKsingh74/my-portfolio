@@ -1,3 +1,7 @@
+import api from "../assets/images/api-gateway.webp"
+import zena from "../assets/images/zena_logo.jpg"
+import social from "../assets/images/social_viz.png"
+
 const ProjectsPage = () => {
   const projects = [
     {
@@ -5,7 +9,7 @@ const ProjectsPage = () => {
       title: "Api-Gateway in C++",
       description: "A multithreaded api-gateway implemented in c++, using threads and socket programming. Implemented Cacheing and service discovery for efficient and fast responses.",
       technologies: ["C++", "OS", "Threads", "Cache"],
-      image: "/images/api-gateway.webp",
+      image: api,
       githubLink: "https://github.com/DEEPAKsingh74/api-gateway-cpp",
       liveLink: "https://github.com/DEEPAKsingh74/api-gateway-cpp"
     },
@@ -14,16 +18,16 @@ const ProjectsPage = () => {
       title: "Zena AI",
       description: "Built a user friendly and flexible AI assistance for your command line helping you to get quick suggestions and responses in your terminal only.",
       technologies: ["GO", "LLM", "CLI", "Linux"],
-      image: "/images/zena_logo.jpg",
+      image: zena,
       githubLink: "https://github.com/DEEPAKsingh74/zena",
       liveLink: "https://github.com/DEEPAKsingh74/zena"
     },
     {
       id: 3,
-      title: "Health & Fitness Tracker",
-      description: "Mobile-first application for tracking workouts, nutrition, and health metrics with data visualization.",
-      technologies: ["React Native", "GraphQL", "PostgreSQL", "D3.js"],
-      image: "/images/social_viz.png",
+      title: "Social Network Visualizer",
+      description: "A web based visualization tool for visualizing how social media uses your data to suggest friends. It is based on graph's BFS search.",
+      technologies: ["VisJs", "Typescript", "ReactJS", "D3.js"],
+      image: social,
       githubLink: "https://github.com/DEEPAKsingh74/social-network-visualizer",
       liveLink: "https://deepaksingh74.github.io/social-network-viz/"
     }

@@ -1,3 +1,6 @@
+
+import c1 from "../assets/images/cipherthon.webp"
+
 const CertificatePage = () => {
   const certifications = [
     {
@@ -6,7 +9,7 @@ const CertificatePage = () => {
       issuer: "Cipher Schools",
       date: "June 2024",
       credentialId: "CT2_1702107",
-      image: "/images/cipherthon.webp",
+      image: c1,
       link: "https://drive.google.com/file/d/1Yl7O7r8rDB0chFmb7FvpUSRrWFzBTLUh/view?usp=sharing"
     },
     {
@@ -15,7 +18,7 @@ const CertificatePage = () => {
       issuer: "Cipher Schools",
       date: "February 2023",
       credentialId: "CS2023-9301",
-      image: "/images/cipherthon.webp",
+      image: c1,
       link: "https://drive.google.com/file/d/18UrnfbE-_nBuTm00QSG51VuuuIyLqzK2/view?usp=drive_link"
     }
   ];

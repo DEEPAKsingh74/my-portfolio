@@ -8,7 +8,7 @@ import Layout from './layouts/Layout';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/my-portfolio'>
       <Routes>
         {/* Layout Route */}
         <Route path="/" element={<Layout />}>

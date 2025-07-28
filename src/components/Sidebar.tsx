@@ -1,3 +1,6 @@
+
+import profileImage from "../assets/images/profile.jpeg"
+
 const Sidebar = () => {
     return (
         <div className="flex flex-col h-screen bg-gradient-to-b from-indigo-900 to-purple-900 text-white p-6 sticky top-0 overflow-y-auto">
@@ -5,7 +8,7 @@ const Sidebar = () => {
             <div className="flex flex-col items-center mb-8">
                 <div className="w-32 h-32 rounded-full border-4 border-white overflow-hidden mb-4">
                     <img
-                        src="/my-portfolio/images/profile.jpeg"
+                        src={profileImage}
                         className="w-full h-full object-cover"
                     />
                 </div>

@@ -1,0 +1,1 @@
+export const resumeUrl = "https://github.com/DEEPAKsingh74/resume/blob/main/Deepak_resume_mnc.pdf";

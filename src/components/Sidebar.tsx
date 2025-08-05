@@ -98,7 +98,7 @@ const Sidebar = () => {
                         GFG
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/deepakbishtsingh1604/"
+                        href="https://www.linkedin.com/in/deepak-bisht-s74/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center text-sm p-2 rounded hover:bg-indigo-800 transition"

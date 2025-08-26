@@ -1,6 +1,7 @@
 import api from "../assets/images/api-gateway.webp"
 import zena from "../assets/images/zena_logo.jpg"
 import social from "../assets/images/social_viz.png"
+import maze from "../assets/images/maze_solver.png"
 
 const ProjectsPage = () => {
   const projects = [
@@ -30,6 +31,15 @@ const ProjectsPage = () => {
       image: social,
       githubLink: "https://github.com/DEEPAKsingh74/social-network-visualizer",
       liveLink: "https://deepaksingh74.github.io/social-network-viz/"
+    },
+    {
+      id: 4,
+      title: "Maze Solver",
+      description: "A web based visualization tool for finding shortest path using different path finding algorithm, and also maze generation algorithms.",
+      technologies: ["Graphs", "DSA", "ReactJs"],
+      image: maze,
+      githubLink: "https://github.com/DEEPAKsingh74/Maze-visualizer",
+      liveLink: "https://deepaksingh74.github.io/Maze-visualizer/"
     }
   ];
 

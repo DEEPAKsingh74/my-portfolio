@@ -1,5 +1,6 @@
 
 import c1 from "../assets/images/cipherthon.webp"
+import adobe from "../assets/images/adobe.png"
 
 const CertificatePage = () => {
   const certifications = [
@@ -20,7 +21,16 @@ const CertificatePage = () => {
       credentialId: "CS2023-9301",
       image: c1,
       link: "https://drive.google.com/file/d/18UrnfbE-_nBuTm00QSG51VuuuIyLqzK2/view?usp=drive_link"
-    }
+    },
+    {
+      id: 3,
+      title: "Adobe India Hackathon - 2025",
+      issuer: "Adobe",
+      date: "August 2025",
+      credentialId: "NA",
+      image: adobe,
+      link: "https://drive.google.com/file/d/1cg1mONjMyB9nfzukxLC_QVE6BUbZ0HuK/view?usp=sharing"
+    },
   ];
 
   return (
